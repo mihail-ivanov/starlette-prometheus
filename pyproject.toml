@@ -4,7 +4,7 @@ build-backend = "poetry.masonry.api"
 
 [tool.poetry]
 name = "starlette-prometheus"
-version = "0.7.0"
+version = "0.9.0"
 description = "Prometheus integration for Starlette"
 authors = ["José Antonio Perdiguero López <perdy@perdy.io>"]
 license = "GPL-3.0+"
@@ -24,7 +24,7 @@ exclude = []
 [tool.poetry.dependencies]
 python = "^3.6"
 starlette = ">=0.12.2"
-prometheus_client = "^0.8"
+prometheus_client = "^0.9"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.6"
